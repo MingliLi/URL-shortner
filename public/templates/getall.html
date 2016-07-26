@@ -1,0 +1,7 @@
+<div>
+  <ul>
+    <li ng-repeat="link in links">
+        <p><a href="{{'/link/' + link.itemId.toString(16)}}">{{link.itemId.toString(16)}}</a> --> {{link.url}}</p>
+    </li>
+  </ul>
+</div>
